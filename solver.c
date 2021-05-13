@@ -18,6 +18,8 @@ void print(int arr[N][N])
 
 int isSafe(int grid[N][N], int row, int col, int num)
 {
+  print(grid);
+  printf("\n\n");
   for(int x=0; x <= 0; x++)
   {
     if (grid[row] == num) return 0;
